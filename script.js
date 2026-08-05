@@ -8,9 +8,9 @@ const CONFIG = {
   subtitle: "",
   // Geburtstagsgruß (gerne lang, wird automatisch schön)
   message:
-    "Ich wünsche dir von Herzen, dass du immer glücklich und gesund bist." +
-    "Ich wünsche dir, dass du ganz bald deinen inneren Frieden findest." +
-    "Ich wünsche dir, dass du dich immer geliebt und geborgen fühlst." +
+    "Ich wünsche dir von Herzen, dass du immer glücklich und gesund bist. " +
+    "Ich wünsche dir, dass du ganz bald deinen inneren Frieden findest. " +
+    "Ich wünsche dir, dass du dich immer geliebt und geborgen fühlst. " +
     "Ich wünsche dir nur das Allerbeste. Du schaffst! wir schaffen!",
   // Absender
   signature:"— Mit ganz viel Herzlichkeit",
