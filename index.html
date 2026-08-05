@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Alles Gute zum Geburtstag</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Caveat:wght@500;600;700&family=Pacifico&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+
+  <!-- ============== PRELOADER ============== -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-cake">
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+        <div class="cake-top"></div>
+        <div class="cake-icing"></div>
+        <div class="cake-body">
+          <span class="sprinkle s1"></span>
+          <span class="sprinkle s2"></span>
+          <span class="sprinkle s3"></span>
+          <span class="sprinkle s4"></span>
+        </div>
+      </div>
+      <p class="preloader-text">Eine kleine Überraschung für dich<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+      <div class="preloader-bar"><div class="preloader-bar-fill" id="preloaderFill"></div></div>
+    </div>
+  </div>
+
+  <!-- ============== BACKGROUND DECOR ============== -->
+  <div class="bg-decor" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div id="balloons" class="balloons"></div>
+  </div>
+
+  <!-- ============== MAIN CONTENT ============== -->
+  <main id="mainContent" class="main-content">
+
+    <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+    <section class="hero">
+      <p class="eyebrow">05. 08. 2008.</p>
+      <h1 class="title" id="titleText"></h1>
+      <p class="subtitle" id="subtitleText"></p>
+
+      <div class="photo-frame">
+        <div class="photo-frame-glow"></div>
+        <img id="mainPhoto" src="amel.jpeg" alt="Geburtstagsfoto" />
+        <span class="photo-sticker">🎂</span>
+      </div>
+
+      <div class="message-card" id="messageCard">
+        <span class="card-tape">Für Amel</span>
+        <span class="card-corner card-corner-tl"></span>
+        <span class="card-corner card-corner-tr"></span>
+        <span class="card-corner card-corner-bl"></span>
+        <span class="card-corner card-corner-br"></span>
+        <span class="quote-mark">"</span>
+        <p class="message-text" id="messageText">
+          Hier steht deine Nachricht
+        </p>
+        <div class="card-divider"><span></span><i>✦</i><span></span></div>
+        <span class="signature" id="signatureText">— Mit viel Herzlichkeit</span>
+      </div>
+
+      <button id="surpriseBtn" class="surprise-btn">
+        <span class="btn-shimmer"></span>
+        <span class="btn-content">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 12 20 22 4 22 4 12"></polyline>
+            <rect x="2" y="7" width="20" height="5"></rect>
+            <line x1="12" y1="22" x2="12" y2="7"></line>
+            <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+            <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+          </svg>
+          <span>Überraschung</span>
+        </span>
+      </button>
+    </section>
+
+    <footer class="footer">
+      <p id="footerText"></p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
